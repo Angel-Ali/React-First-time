@@ -1,0 +1,25 @@
+.item{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 250px;
+    height: auto;
+    margin-right: 12px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.item:hover {
+    border: 1px solid hotpink;
+}
+
+.item h5{
+    margin-top: 5px;
+}
+
+.item .item-controls {
+    display: flex;
+    justify-content: space-between;
+   
+  
+}
